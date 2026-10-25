@@ -27,6 +27,26 @@
       "sha256": "a91c5c6b0954560e72b3d335c1ac65bfc334e1a1d543a41ada89e63958746a57"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1106,
+      "sha256": "b30591af8d833d73dcf1c86d5ec5a03c35b1e6f86a4c13a7bc01623ea51d8327"
+    },
+    {
+      "path": "README.ko.md",
+      "bytes": 5057,
+      "sha256": "e55ecbaa71a993cb978fba321a3ba427ca9cf2dd78936328fbd4e3666691efa0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4969,
+      "sha256": "97ee289c600c5fff6008c8c6a62cf04ebc2024874899aa68f4f215a2e7cf9a88"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1231,
+      "sha256": "b8f081087b5e6e46dca16b64ec84f33712a8891bb6a5c998d8f108af55d15377"
+    },
+    {
       "path": "docs/DEARDTI_ORIGIN.md",
       "bytes": 1381,
       "sha256": "70bfd6c11fde52ab598b863357c36e5b7733e834a2e34ed81a91ccf5775b5087"
@@ -42,14 +62,14 @@
       "sha256": "b08bad8cdb581105f1d404539f24fbcc923354939469fd1189b59e726d09108d"
     },
     {
-      "path": "docs/source_files.json",
-      "bytes": 4737,
-      "sha256": "17c091cfcc9afc9865260a1be8f67040f8d021fbc2b2a7c63184cea9c0ae7fd0"
-    },
-    {
       "path": "docs/VALIDATION.md",
       "bytes": 1273,
       "sha256": "4834b89cd9831a6375894638ae0168edbcee56004bbdf0ddb4c8e5840ed65ee2"
+    },
+    {
+      "path": "docs/source_files.json",
+      "bytes": 4737,
+      "sha256": "17c091cfcc9afc9865260a1be8f67040f8d021fbc2b2a7c63184cea9c0ae7fd0"
     },
     {
       "path": "environment/mmseqs_provenance.json",
@@ -72,24 +92,9 @@
       "sha256": "c166d0e7608b6b6aaafd4bd6512c978db7b3e562839902513c4cc32b6a3986c7"
     },
     {
-      "path": "LICENSE",
-      "bytes": 1106,
-      "sha256": "b30591af8d833d73dcf1c86d5ec5a03c35b1e6f86a4c13a7bc01623ea51d8327"
-    },
-    {
       "path": "pyproject.toml",
       "bytes": 826,
       "sha256": "acf0cd7231bd498db8ace39dcb1c156908f80577f5fdbf028dc9b19ad1435d92"
-    },
-    {
-      "path": "README.ko.md",
-      "bytes": 5057,
-      "sha256": "e55ecbaa71a993cb978fba321a3ba427ca9cf2dd78936328fbd4e3666691efa0"
-    },
-    {
-      "path": "README.md",
-      "bytes": 4969,
-      "sha256": "97ee289c600c5fff6008c8c6a62cf04ebc2024874899aa68f4f215a2e7cf9a88"
     },
     {
       "path": "results/data_preparation.json",
@@ -287,6 +292,11 @@
       "sha256": "71cd8ed853f3edaa7c250543d1a53d566e78b92895e1c54ecabc52f78486d9d0"
     },
     {
+      "path": "src/nutriomics_dti/vendor/DEARDTI_MIT_LICENSE.txt",
+      "bytes": 1098,
+      "sha256": "35796f5ee1990c4e56a96d7f84073599a262a611f17ee0f149f1645cfce75a5a"
+    },
+    {
       "path": "src/nutriomics_dti/vendor/__init__.py",
       "bytes": 49,
       "sha256": "59dc0433bae395ef33b56832df7b4ac0645f39e5312b69d1e4c3259889ca65d5"
@@ -300,11 +310,6 @@
       "path": "src/nutriomics_dti/vendor/deardti_fusion.py",
       "bytes": 2604,
       "sha256": "68743fc5c550828c8a74feccd19487bf2e4db56f29e246fc73bddc73fc9709ee"
-    },
-    {
-      "path": "src/nutriomics_dti/vendor/DEARDTI_MIT_LICENSE.txt",
-      "bytes": 1098,
-      "sha256": "35796f5ee1990c4e56a96d7f84073599a262a611f17ee0f149f1645cfce75a5a"
     },
     {
       "path": "tests/test_deardti_kd.py",
@@ -325,11 +330,6 @@
       "path": "tests/test_result_reproduction.py",
       "bytes": 731,
       "sha256": "e130cf3eb0769d7cd8ec2cf2ae8d48267db9e05376b1900440dba274029fdded"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1231,
-      "sha256": "b8f081087b5e6e46dca16b64ec84f33712a8891bb6a5c998d8f108af55d15377"
     }
   ]
 }
