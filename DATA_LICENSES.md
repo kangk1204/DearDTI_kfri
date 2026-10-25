@@ -12,4 +12,13 @@ Reference: Liu T et al. BindingDB in 2024: a FAIR knowledgebase of protein-small
 
 ## DearDTI KFRI outputs
 
-The aggregate evaluation tables, manifests, documentation and synthetic examples in this repository are provided under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) by kangk1204. The software is provided under MIT. These permissions apply to the authors' contributions; downloaded source data retain their original terms.
+| Material | Terms |
+|---|---|
+| Software | MIT, with the original DearDTI notice retained |
+| Aggregate evaluation data in `results/` | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Original documentation and synthetic examples | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Downloaded source data | The terms supplied by each provider |
+
+Evaluation tables were prepared by kangk1204 from project predictions and BindingDB measurements. Processing includes Kd selection, source grouping, data partitioning and aggregate error/rank calculations. BindingDB and ChEMBL attribution is retained for the source measurements. The ShareAlike terms cover these derived evaluation data; software and documentation have the terms shown above.
+
+ChEMBL reference: Zdrazil B et al. The ChEMBL Database in 2023: a drug discovery platform spanning multiple bioactivity data types and time periods. *Nucleic Acids Research* 52, D1180-D1192 (2024). https://doi.org/10.1093/nar/gkad1004.
