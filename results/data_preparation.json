@@ -1,0 +1,21 @@
+{
+  "raw_file": "BindingDB_All_202610_tsv.zip",
+  "raw_sha256": "e968f90e900c7833d5e6eceae282d0ca3b75201448bccaf4df6b09cc410f7d76",
+  "assay_map_sha256": "c13f48505fd60a4b50b7d35465dc45068ac16488279a349e836f25b9a9a78e92",
+  "counts": {
+    "raw_rows": 3243660,
+    "no_kd": 3112129,
+    "explicit_mutant_truncation_or_fusion": 8967,
+    "censored_or_invalid_kd": 49050,
+    "multichain_target": 2210,
+    "invalid_smiles": 67,
+    "invalid_sequence": 8,
+    "duplicate_measurements": 612,
+    "retained_measurements": 70617
+  },
+  "compounds": 27565,
+  "targets": 3825,
+  "source_groups": 4084,
+  "species_filter": null,
+  "endpoint": "exact positive Kd only; native nM; pKd=-log10(Kd[M]); explicitly named mutant/truncated/fusion constructs excluded"
+}

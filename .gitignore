@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.pytest_tmp/
+*.egg-info/
+build/
+dist/
+data/
+models/
+outputs/
+*.pt
+*.joblib
+*.partial
+.env
+.env.*

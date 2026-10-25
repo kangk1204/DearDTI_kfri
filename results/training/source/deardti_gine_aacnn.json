@@ -1,0 +1,50 @@
+{
+  "model": "deardti_gine_aacnn",
+  "split_lock_sha256": "e79e12a4fc0cc88968268d8b549d8855efee82bea637ca7f9c489c6bafafe146",
+  "code_sha256": {
+    "native_kd_runner.py": "2863748b060c3c49f9a1df73b1f3c29e074ea6ffdc03c4fd19f609ecb5135216",
+    "deardti_kd.py": "f1c83a33da6b70194ab76fc4e586b8673229a5acd6e106128846460b0118d6e0",
+    "prospective_kd.py": "32426914be919209afde7d5865f2fdc2da78b6b5df4fa3f06e1eafe1fb679b4e",
+    "source_ledger_v2.py": "e3990ada62b08544318023df75e8c9951947a6c89aaeb75ece54c030877637b8",
+    "vendor/deardti_encoders.py": "e22b3d6873951e66fd02227adf723b289033170f0d3557805d6c192e5bfaa998",
+    "vendor/deardti_fusion.py": "68743fc5c550828c8a74feccd19487bf2e4db56f29e246fc73bddc73fc9709ee"
+  },
+  "seed": 20261003,
+  "config": {
+    "hidden": 64,
+    "gine_layers": 3,
+    "jk": true,
+    "protein_encoder": "fresh AA-CNN 3layers",
+    "protein_cap": 1024,
+    "protein_max_tokens": 128,
+    "max_atoms": 128,
+    "batch_size": 32,
+    "epochs_max": 20,
+    "patience": 4,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "cuda_memory_fraction": 0.36,
+    "selected_epoch": 4,
+    "normalization": {
+      "training_mean": 6.583953447456443,
+      "training_std": 1.6113181257191533
+    }
+  },
+  "runtime": {
+    "python": "3.11.15",
+    "platform": "Linux-6.17.0-41-generic-x86_64-with-glibc2.42",
+    "numpy": "2.4.6",
+    "torch": "2.11.0+cu128",
+    "cuda_build": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "peak_cuda_allocated_bytes": 779812864
+  },
+  "validation_metrics": {
+    "n": 6900,
+    "rmse_pkd": 1.4092497321276345,
+    "mae_pkd": 1.115522579554957,
+    "spearman": 0.413275040490713
+  },
+  "model_sha256": "fba849987be6d9f4e6e71a73f41d212bcbe3f6ad413d32867801ed3572577261"
+}

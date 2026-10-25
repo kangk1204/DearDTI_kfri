@@ -1,0 +1,335 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 63,
+      "sha256": "44ce7f39ef923e6c7fdf6f9269c1f9aeda6688fd54e1ffb466ace5de9008266a"
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "bytes": 484,
+      "sha256": "f8ce52ffd9d6d8d81567cbba4ce0b99852f2edb2b19d55d6b4baa652620507ad"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 138,
+      "sha256": "ced4498d3b056b3d5536b2de8a2a23575ef9d40899619bb4ed2348bd69684267"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 317,
+      "sha256": "8e944b760301b1c987fab274acb7a69f656525a9371b2da9c72b5e4b048cd55e"
+    },
+    {
+      "path": "DATA_LICENSES.md",
+      "bytes": 1493,
+      "sha256": "a91c5c6b0954560e72b3d335c1ac65bfc334e1a1d543a41ada89e63958746a57"
+    },
+    {
+      "path": "docs/DEARDTI_ORIGIN.md",
+      "bytes": 1381,
+      "sha256": "70bfd6c11fde52ab598b863357c36e5b7733e834a2e34ed81a91ccf5775b5087"
+    },
+    {
+      "path": "docs/METHODS.md",
+      "bytes": 3701,
+      "sha256": "0f64aae276e578fcbd17f570abf1f853af9c957bed67b0db835ef674b977fc26"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "bytes": 3655,
+      "sha256": "b08bad8cdb581105f1d404539f24fbcc923354939469fd1189b59e726d09108d"
+    },
+    {
+      "path": "docs/source_files.json",
+      "bytes": 4737,
+      "sha256": "17c091cfcc9afc9865260a1be8f67040f8d021fbc2b2a7c63184cea9c0ae7fd0"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1273,
+      "sha256": "4834b89cd9831a6375894638ae0168edbcee56004bbdf0ddb4c8e5840ed65ee2"
+    },
+    {
+      "path": "environment/mmseqs_provenance.json",
+      "bytes": 205,
+      "sha256": "9a52644d67544820a79acafc0aa68aef15c134198e2f10e03b8f6a1c97b42e32"
+    },
+    {
+      "path": "environment/training_runtime.json",
+      "bytes": 596,
+      "sha256": "25ec80497a856cc44f2c7603eeb6792d59394d749996025876881a45cce6447d"
+    },
+    {
+      "path": "environment/validation_runtime.json",
+      "bytes": 374,
+      "sha256": "db46aad6dc91d7251a21c56f75e76a571a03744832521ce3575aacc6956f7339"
+    },
+    {
+      "path": "examples/query.csv",
+      "bytes": 72,
+      "sha256": "c166d0e7608b6b6aaafd4bd6512c978db7b3e562839902513c4cc32b6a3986c7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1106,
+      "sha256": "b30591af8d833d73dcf1c86d5ec5a03c35b1e6f86a4c13a7bc01623ea51d8327"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 826,
+      "sha256": "acf0cd7231bd498db8ace39dcb1c156908f80577f5fdbf028dc9b19ad1435d92"
+    },
+    {
+      "path": "README.ko.md",
+      "bytes": 5057,
+      "sha256": "e55ecbaa71a993cb978fba321a3ba427ca9cf2dd78936328fbd4e3666691efa0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4969,
+      "sha256": "97ee289c600c5fff6008c8c6a62cf04ebc2024874899aa68f4f215a2e7cf9a88"
+    },
+    {
+      "path": "results/data_preparation.json",
+      "bytes": 754,
+      "sha256": "9e4e3d0b37b315d7d004b7eaed4ea15e8af78b01c742c4191d3960d84e4360ba"
+    },
+    {
+      "path": "results/precision_verification.json",
+      "bytes": 5125,
+      "sha256": "a71faa1d898bf8c349a388d29bf6e6f8d325a9be821639b2f387bd499f49b7cb"
+    },
+    {
+      "path": "results/prediction_manifest.json",
+      "bytes": 6435,
+      "sha256": "4747fdf6e0a4c34bdd7f82dd69c9c27215149057b4bb63012703baf0c0f96e15"
+    },
+    {
+      "path": "results/published_metrics.csv",
+      "bytes": 3584,
+      "sha256": "b3410a8d3b041bcfef90321c56d7c703f0260f1660f5019c9391554550bd6427"
+    },
+    {
+      "path": "results/split_protocol.json",
+      "bytes": 3453,
+      "sha256": "98d528627990c5a83af4627fefa5d2d6ea4d9ac563d6f60af07496a36db853b4"
+    },
+    {
+      "path": "results/sufficient_statistics.json",
+      "bytes": 6819,
+      "sha256": "8c3874f22a20b305a47dd7c8451eaebcf1d837021e3e15fa78c1b34735a9980f"
+    },
+    {
+      "path": "results/training/cold_compound/deardti_gine_aacnn.json",
+      "bytes": 1757,
+      "sha256": "9818b66f6cef474b3c78ae51230b1b9c2358a3b351f1ed554f4cc922e67c6f5a"
+    },
+    {
+      "path": "results/training/cold_compound/extratrees.json",
+      "bytes": 1301,
+      "sha256": "9a079eac0a315448bd119ac5d4055552851c40be5eda749d26f715d8708e88e7"
+    },
+    {
+      "path": "results/training/cold_compound/ridge.json",
+      "bytes": 1288,
+      "sha256": "6350ba2da481d96b2b8f21fd0499fac4d15678adac238407808fd006c58a799c"
+    },
+    {
+      "path": "results/training/cold_target/deardti_gine_aacnn.json",
+      "bytes": 1756,
+      "sha256": "162f1a5fec1c2c310149fdda942ccec812d3e0a2c1d1d3b3a28b3d9ca169e897"
+    },
+    {
+      "path": "results/training/cold_target/extratrees.json",
+      "bytes": 1300,
+      "sha256": "fd516f0daa6d6172af997b6432f00ff447565ba5f33fafef92f6802f72d59e2a"
+    },
+    {
+      "path": "results/training/cold_target/ridge.json",
+      "bytes": 1289,
+      "sha256": "cd20b8a887ae7a006dc019285242c003f8f09e29b4e3effccbc01b2bac6b3f4b"
+    },
+    {
+      "path": "results/training/protein_similarity/deardti_gine_aacnn.json",
+      "bytes": 1759,
+      "sha256": "6c6fb66fd98d5fd05947c9d933c5bb3fdd1954e001a4556513f3e890c7bcbb71"
+    },
+    {
+      "path": "results/training/protein_similarity/extratrees.json",
+      "bytes": 1301,
+      "sha256": "7d5b855c6a811067f30207325cf9eeec479b30d848e282ed0d7a1092369b10aa"
+    },
+    {
+      "path": "results/training/protein_similarity/ridge.json",
+      "bytes": 1289,
+      "sha256": "d084e3d87e16393cf8d0c741005b1d90f38649f12d071018ad1fce6b045f7743"
+    },
+    {
+      "path": "results/training/random/deardti_gine_aacnn.json",
+      "bytes": 1758,
+      "sha256": "b308a00dc1fcecf9610d94e3d5234de25f74e9fdab0d86240b6ccbade441ca62"
+    },
+    {
+      "path": "results/training/random/extratrees.json",
+      "bytes": 1299,
+      "sha256": "7f496e9802324a0ae4d78351e09f6d16d904d05f8e7f37916dfdeba70ff1bba2"
+    },
+    {
+      "path": "results/training/random/ridge.json",
+      "bytes": 1289,
+      "sha256": "7e0741748eb8d38b4df330dc4c5bf1767832cd21d1a65721c7c1bcea165ee709"
+    },
+    {
+      "path": "results/training/scaffold/deardti_gine_aacnn.json",
+      "bytes": 1758,
+      "sha256": "b46fef417cd2b58bafb2bbf28ef7ed7482dff89e3a9615ad3107a966b2da5c0e"
+    },
+    {
+      "path": "results/training/scaffold/extratrees.json",
+      "bytes": 1300,
+      "sha256": "495f562760e5342fa67a47c76c343c46cb11fc92cd94becc33e212e1f43fb1a6"
+    },
+    {
+      "path": "results/training/scaffold/ridge.json",
+      "bytes": 1288,
+      "sha256": "5d3d14681bb1c3c76b03f19e23d819f1392c2545f71fdb624bd66bb63b1697d2"
+    },
+    {
+      "path": "results/training/source/deardti_gine_aacnn.json",
+      "bytes": 1756,
+      "sha256": "da03bd298488ab3de2a423fed5a11cf74bbc1469dc5c93741d866ca9989a6d45"
+    },
+    {
+      "path": "results/training/source/extratrees.json",
+      "bytes": 1301,
+      "sha256": "3f7d947dce5f68455256022be5e2c396ab7db57564361296708420a0394d4706"
+    },
+    {
+      "path": "results/training/source/ridge.json",
+      "bytes": 1286,
+      "sha256": "43228cfc81526d6063abbb6cbbd2841fafd8fd6e7ce7976cc2e513bb6856d42b"
+    },
+    {
+      "path": "scripts/download_inputs.py",
+      "bytes": 1726,
+      "sha256": "3384d81b31006f2b53836477a902d4c3dae3d482512315f06f403f62e04b517a"
+    },
+    {
+      "path": "scripts/reproduce_tables.py",
+      "bytes": 3329,
+      "sha256": "c4054f3a8e0d038633df06c15b9c9ff9b95474c300c4216cd7545829eae3c7a9"
+    },
+    {
+      "path": "scripts/run_benchmark.py",
+      "bytes": 3827,
+      "sha256": "5271af5413f12f26f1c82d8f0a0da45f6359acf80afcd772515ec68ee6160542"
+    },
+    {
+      "path": "src/nutriomics_dti/__init__.py",
+      "bytes": 85,
+      "sha256": "a3836af19358678066508139a572457562814509a451cc29c14f4b8ddac5134a"
+    },
+    {
+      "path": "src/nutriomics_dti/data.py",
+      "bytes": 10456,
+      "sha256": "aa740247bbad0fa3fd4fb873c5d4e850b9b3319677cb6b3ee3bdeb9fb69ff639"
+    },
+    {
+      "path": "src/nutriomics_dti/deardti_kd.py",
+      "bytes": 4690,
+      "sha256": "f1c83a33da6b70194ab76fc4e586b8673229a5acd6e106128846460b0118d6e0"
+    },
+    {
+      "path": "src/nutriomics_dti/features.py",
+      "bytes": 2752,
+      "sha256": "0c2c43b7f717c6022408e90b0bd759b0820bd734febbebdb20c3b626a791abea"
+    },
+    {
+      "path": "src/nutriomics_dti/io.py",
+      "bytes": 666,
+      "sha256": "01297aafb87eb8cd14c8b018a0b964061b3623d5a90bdca679b0daab385383e9"
+    },
+    {
+      "path": "src/nutriomics_dti/models.py",
+      "bytes": 664,
+      "sha256": "f595201d531efc80b9a641347fa175992fd62957b624f27bdf260c11700af1c8"
+    },
+    {
+      "path": "src/nutriomics_dti/native_kd_runner.py",
+      "bytes": 11964,
+      "sha256": "2863748b060c3c49f9a1df73b1f3c29e074ea6ffdc03c4fd19f609ecb5135216"
+    },
+    {
+      "path": "src/nutriomics_dti/portable_inference.py",
+      "bytes": 8928,
+      "sha256": "df8f4cfcd174cf05c534b07e6ea70b4c4a990a0d82dee606cdba5aebebd927b1"
+    },
+    {
+      "path": "src/nutriomics_dti/prospective_kd.py",
+      "bytes": 9052,
+      "sha256": "32426914be919209afde7d5865f2fdc2da78b6b5df4fa3f06e1eafe1fb679b4e"
+    },
+    {
+      "path": "src/nutriomics_dti/protein_split_v2.py",
+      "bytes": 11358,
+      "sha256": "130043b0b31aa874af73cf19cba549b1e84dabc14259a99cd47bc553a3dbc15e"
+    },
+    {
+      "path": "src/nutriomics_dti/source_ledger_v2.py",
+      "bytes": 8945,
+      "sha256": "e3990ada62b08544318023df75e8c9951947a6c89aaeb75ece54c030877637b8"
+    },
+    {
+      "path": "src/nutriomics_dti/splits.py",
+      "bytes": 10256,
+      "sha256": "71cd8ed853f3edaa7c250543d1a53d566e78b92895e1c54ecabc52f78486d9d0"
+    },
+    {
+      "path": "src/nutriomics_dti/vendor/__init__.py",
+      "bytes": 49,
+      "sha256": "59dc0433bae395ef33b56832df7b4ac0645f39e5312b69d1e4c3259889ca65d5"
+    },
+    {
+      "path": "src/nutriomics_dti/vendor/deardti_encoders.py",
+      "bytes": 5451,
+      "sha256": "e22b3d6873951e66fd02227adf723b289033170f0d3557805d6c192e5bfaa998"
+    },
+    {
+      "path": "src/nutriomics_dti/vendor/deardti_fusion.py",
+      "bytes": 2604,
+      "sha256": "68743fc5c550828c8a74feccd19487bf2e4db56f29e246fc73bddc73fc9709ee"
+    },
+    {
+      "path": "src/nutriomics_dti/vendor/DEARDTI_MIT_LICENSE.txt",
+      "bytes": 1098,
+      "sha256": "35796f5ee1990c4e56a96d7f84073599a262a611f17ee0f149f1645cfce75a5a"
+    },
+    {
+      "path": "tests/test_deardti_kd.py",
+      "bytes": 1618,
+      "sha256": "066729d1f2ce0869b76ab57c99674cba0998c242ec681fc75234f348d2fccdd0"
+    },
+    {
+      "path": "tests/test_portable_inference.py",
+      "bytes": 4017,
+      "sha256": "b2c33b8b081b6f25051878019e1261662f22996038a140dcca113bbbbf4e85bc"
+    },
+    {
+      "path": "tests/test_prospective_kd.py",
+      "bytes": 3457,
+      "sha256": "6bd916efe6765662924141e0d7003280d8d73cd21a1bf479b8990dee3cbe5f59"
+    },
+    {
+      "path": "tests/test_result_reproduction.py",
+      "bytes": 731,
+      "sha256": "e130cf3eb0769d7cd8ec2cf2ae8d48267db9e05376b1900440dba274029fdded"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1231,
+      "sha256": "b8f081087b5e6e46dca16b64ec84f33712a8891bb6a5c998d8f108af55d15377"
+    }
+  ]
+}

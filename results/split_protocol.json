@@ -1,0 +1,121 @@
+{
+  "protocol_id": "native_kd_gine_20261003_v1",
+  "frozen_utc": "2026-10-03T05:34:08.964122+00:00",
+  "input_sha256": "dcdbd62076666d21ec98aeed9011b1afd08817ac3758b8238fa8b4f078026fd3",
+  "eligible_records": 69533,
+  "excluded_gt128_atoms": 1084,
+  "endpoint": "exact positive native Kd nM; pKd=-log10(Kd[M])",
+  "models": [
+    "extratrees",
+    "ridge",
+    "deardti_gine_aacnn"
+  ],
+  "seeds": [
+    20261003
+  ],
+  "modes": [
+    "random",
+    "cold_compound",
+    "cold_target",
+    "scaffold",
+    "protein_similarity",
+    "source"
+  ],
+  "summary": [
+    {
+      "mode": "random",
+      "seed": 20261003,
+      "train": 3030,
+      "validation": 1106,
+      "test": 10467,
+      "quarantined": 54930
+    },
+    {
+      "mode": "cold_compound",
+      "seed": 20261003,
+      "train": 5076,
+      "validation": 1582,
+      "test": 11239,
+      "quarantined": 51636
+    },
+    {
+      "mode": "cold_target",
+      "seed": 20261003,
+      "train": 19463,
+      "validation": 6710,
+      "test": 11461,
+      "quarantined": 31899
+    },
+    {
+      "mode": "scaffold",
+      "seed": 20261003,
+      "train": 8412,
+      "validation": 3787,
+      "test": 9528,
+      "quarantined": 47806
+    },
+    {
+      "mode": "protein_similarity",
+      "seed": 20261003,
+      "train": 26300,
+      "validation": 4876,
+      "test": 11804,
+      "quarantined": 26553
+    },
+    {
+      "mode": "source",
+      "seed": 20261003,
+      "train": 49118,
+      "validation": 6900,
+      "test": 8736,
+      "quarantined": 4779
+    }
+  ],
+  "protein_similarity": {
+    "all_vs_all": {
+      "command": [
+        "mmseqs",
+        "easy-search",
+        "data/native_kd_gine_20261003_v1/splits/sequence_all_vs_all/query.fasta",
+        "data/native_kd_gine_20261003_v1/splits/sequence_all_vs_all/reference.fasta",
+        "data/native_kd_gine_20261003_v1/splits/sequence_all_vs_all/alignments.tsv",
+        "data/native_kd_gine_20261003_v1/splits/sequence_all_vs_all/tmp",
+        "--min-seq-id",
+        "0.4",
+        "-c",
+        "0.8",
+        "--cov-mode",
+        "0",
+        "--alignment-mode",
+        "3",
+        "--exhaustive-search",
+        "1",
+        "--max-seqs",
+        "3787",
+        "-e",
+        "1000000",
+        "-s",
+        "7.5",
+        "--threads",
+        "2",
+        "--format-output",
+        "query,target,fident,qcov,tcov"
+      ],
+      "query_fasta_sha256": "a02253e6e7984d1205c6f160e285332355e9e49c702cd069ea9614a87137ce6a",
+      "reference_fasta_sha256": "a02253e6e7984d1205c6f160e285332355e9e49c702cd069ea9614a87137ce6a",
+      "alignments_sha256": "266070a86b9eaa78baab2fbb5c0baa7ef182243016e00d029498d961136cb643",
+      "qualified_edges": 7640,
+      "max_sequences": 3787,
+      "identity_threshold": 0.4,
+      "bidirectional_coverage_threshold": 0.8,
+      "interpretation": "MMseqs exhaustive candidate search and its reported local alignments; not a proof over every possible global alignment"
+    },
+    "identity": 0.4,
+    "coverage": 0.8
+  },
+  "selection": "Only validation selects baseline parameters or neural checkpoint; report all declared test models",
+  "fresh_supervised_weights": true,
+  "sequence_encoder": "fresh amino acid embedding + 3 layer CNN; no pretrained embeddings",
+  "historical_independence": "Not established without immutable complete historical ledger",
+  "test_attempt_rule": "One test attempt per declared model/seed/split; any failed attempt is retained and consumes the attempt"
+}

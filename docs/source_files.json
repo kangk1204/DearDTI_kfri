@@ -1,0 +1,107 @@
+[
+  {
+    "path": "src/nutriomics_dti/__init__.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "a3836af19358678066508139a572457562814509a451cc29c14f4b8ddac5134a",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/data.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "aa740247bbad0fa3fd4fb873c5d4e850b9b3319677cb6b3ee3bdeb9fb69ff639",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/features.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "0c2c43b7f717c6022408e90b0bd759b0820bd734febbebdb20c3b626a791abea",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/io.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "01297aafb87eb8cd14c8b018a0b964061b3623d5a90bdca679b0daab385383e9",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/splits.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "71cd8ed853f3edaa7c250543d1a53d566e78b92895e1c54ecabc52f78486d9d0",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/protein_split_v2.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "130043b0b31aa874af73cf19cba549b1e84dabc14259a99cd47bc553a3dbc15e",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/source_ledger_v2.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "e3990ada62b08544318023df75e8c9951947a6c89aaeb75ece54c030877637b8",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/prospective_kd.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "32426914be919209afde7d5865f2fdc2da78b6b5df4fa3f06e1eafe1fb679b4e",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/native_kd_runner.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "2863748b060c3c49f9a1df73b1f3c29e074ea6ffdc03c4fd19f609ecb5135216",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/deardti_kd.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "f1c83a33da6b70194ab76fc4e586b8673229a5acd6e106128846460b0118d6e0",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/portable_inference.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "df8f4cfcd174cf05c534b07e6ea70b4c4a990a0d82dee606cdba5aebebd927b1",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/vendor/__init__.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "59dc0433bae395ef33b56832df7b4ac0645f39e5312b69d1e4c3259889ca65d5",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/vendor/deardti_encoders.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "e22b3d6873951e66fd02227adf723b289033170f0d3557805d6c192e5bfaa998",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/vendor/deardti_fusion.py",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "68743fc5c550828c8a74feccd19487bf2e4db56f29e246fc73bddc73fc9709ee",
+    "copy": "unchanged"
+  },
+  {
+    "path": "src/nutriomics_dti/vendor/DEARDTI_MIT_LICENSE.txt",
+    "source_repository": "https://github.com/kangk1204/nutriomics-compound-target",
+    "source_commit": "c459bcc2dad7a92c280ca58fe58d967c0be863fb",
+    "sha256": "35796f5ee1990c4e56a96d7f84073599a262a611f17ee0f149f1645cfce75a5a",
+    "copy": "unchanged"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "mode": "random",
+    "model": "extratrees",
+    "prediction_filename": "results/random/extratrees/test_predictions.csv.gz",
+    "prediction_sha256": "38ad77221ef57ff07d23b9581acdf443329e6e32e85571562d784e2538c88b2a",
+    "rows": 10467,
+    "measurement_ids_sha256": "31ca1117c004e53f7ed2aa832175128cb5ab166707147ce853a493e85e5e7c96"
+  },
+  {
+    "mode": "random",
+    "model": "ridge",
+    "prediction_filename": "results/random/ridge/test_predictions.csv.gz",
+    "prediction_sha256": "14e571fe90d84a2541636d35f95f857217f040356c856c9ce6d9e6f7179b296e",
+    "rows": 10467,
+    "measurement_ids_sha256": "31ca1117c004e53f7ed2aa832175128cb5ab166707147ce853a493e85e5e7c96"
+  },
+  {
+    "mode": "random",
+    "model": "deardti_gine_aacnn",
+    "prediction_filename": "results/random/deardti_gine_aacnn/test_predictions.csv.gz",
+    "prediction_sha256": "ad9fbf133a73ab954531aa5bdb37a9ae6ceff726dd038afd312fdc21e1be4db9",
+    "rows": 10467,
+    "measurement_ids_sha256": "31ca1117c004e53f7ed2aa832175128cb5ab166707147ce853a493e85e5e7c96"
+  },
+  {
+    "mode": "cold_compound",
+    "model": "extratrees",
+    "prediction_filename": "results/cold_compound/extratrees/test_predictions.csv.gz",
+    "prediction_sha256": "e5c80cff460dcb569e4eea9207ea32dd5eb024e77d623ee7cb5886039856c7f8",
+    "rows": 11239,
+    "measurement_ids_sha256": "ec8f70d7181908262b53a21ab437fa9111ec3a314abbefc2bb775d74a5f49ba1"
+  },
+  {
+    "mode": "cold_compound",
+    "model": "ridge",
+    "prediction_filename": "results/cold_compound/ridge/test_predictions.csv.gz",
+    "prediction_sha256": "0c14111e22e98ff067edd6662eee15036c393c2417a0f653ad934a3434939b7d",
+    "rows": 11239,
+    "measurement_ids_sha256": "ec8f70d7181908262b53a21ab437fa9111ec3a314abbefc2bb775d74a5f49ba1"
+  },
+  {
+    "mode": "cold_compound",
+    "model": "deardti_gine_aacnn",
+    "prediction_filename": "results/cold_compound/deardti_gine_aacnn/test_predictions.csv.gz",
+    "prediction_sha256": "7e97db4b5cd653e1d83478eeb2ab66f1a1a10dff8ac6f8b5b18e68af6c646416",
+    "rows": 11239,
+    "measurement_ids_sha256": "ec8f70d7181908262b53a21ab437fa9111ec3a314abbefc2bb775d74a5f49ba1"
+  },
+  {
+    "mode": "cold_target",
+    "model": "extratrees",
+    "prediction_filename": "results/cold_target/extratrees/test_predictions.csv.gz",
+    "prediction_sha256": "533adf9f20dcbc84b287b906706b209fc63354ce75f8ba58529740605da627a1",
+    "rows": 11461,
+    "measurement_ids_sha256": "98a8a7c486b7f89bab8afe4f422749d5ed2be686cc0bb588244324ff32e236d2"
+  },
+  {
+    "mode": "cold_target",
+    "model": "ridge",
+    "prediction_filename": "results/cold_target/ridge/test_predictions.csv.gz",
+    "prediction_sha256": "c3be3da4e533ad2b0c272af07c3bda0e3908d4ae6ea70058a1e95c5e54c01b36",
+    "rows": 11461,
+    "measurement_ids_sha256": "98a8a7c486b7f89bab8afe4f422749d5ed2be686cc0bb588244324ff32e236d2"
+  },
+  {
+    "mode": "cold_target",
+    "model": "deardti_gine_aacnn",
+    "prediction_filename": "results/cold_target/deardti_gine_aacnn/test_predictions.csv.gz",
+    "prediction_sha256": "845188dfeb5f116f78c718e6d9789c013f2898030fee618493616b59a65925ae",
+    "rows": 11461,
+    "measurement_ids_sha256": "98a8a7c486b7f89bab8afe4f422749d5ed2be686cc0bb588244324ff32e236d2"
+  },
+  {
+    "mode": "scaffold",
+    "model": "extratrees",
+    "prediction_filename": "results/scaffold/extratrees/test_predictions.csv.gz",
+    "prediction_sha256": "465c60774872fb6d0491e14e0f058724965a0134815f4afb816778d4c437d110",
+    "rows": 9528,
+    "measurement_ids_sha256": "298e826a6a7a2d76806378baeb29723fe9e0e86218fd3e0ad2b948018f5d625b"
+  },
+  {
+    "mode": "scaffold",
+    "model": "ridge",
+    "prediction_filename": "results/scaffold/ridge/test_predictions.csv.gz",
+    "prediction_sha256": "059731af143277ae179420f4d8ddcce1f89a045f41d847b60d4db16e93e056a9",
+    "rows": 9528,
+    "measurement_ids_sha256": "298e826a6a7a2d76806378baeb29723fe9e0e86218fd3e0ad2b948018f5d625b"
+  },
+  {
+    "mode": "scaffold",
+    "model": "deardti_gine_aacnn",
+    "prediction_filename": "results/scaffold/deardti_gine_aacnn/test_predictions.csv.gz",
+    "prediction_sha256": "f5b2528abd64eeaa20b5c57cffb30267ab0a4d4b3ca330cfe443715a019c332f",
+    "rows": 9528,
+    "measurement_ids_sha256": "298e826a6a7a2d76806378baeb29723fe9e0e86218fd3e0ad2b948018f5d625b"
+  },
+  {
+    "mode": "protein_similarity",
+    "model": "extratrees",
+    "prediction_filename": "results/protein_similarity/extratrees/test_predictions.csv.gz",
+    "prediction_sha256": "617f3aba2edffac88660a4f768e30e42188aa4c10f1b5d6614116cbc79530693",
+    "rows": 11804,
+    "measurement_ids_sha256": "f13d259543c5f29776979b19b117b8c0c89ebd94a53d7967b2f7621222852d12"
+  },
+  {
+    "mode": "protein_similarity",
+    "model": "ridge",
+    "prediction_filename": "results/protein_similarity/ridge/test_predictions.csv.gz",
+    "prediction_sha256": "39920f5cb4d3afdeb28865f3ec871c2ccd8c1f697db16c96ee9afd391892440c",
+    "rows": 11804,
+    "measurement_ids_sha256": "f13d259543c5f29776979b19b117b8c0c89ebd94a53d7967b2f7621222852d12"
+  },
+  {
+    "mode": "protein_similarity",
+    "model": "deardti_gine_aacnn",
+    "prediction_filename": "results/protein_similarity/deardti_gine_aacnn/test_predictions.csv.gz",
+    "prediction_sha256": "0884894eb04a16394ec0417e53ffa109d9297d661b2a953f15e9a6eced96b8ad",
+    "rows": 11804,
+    "measurement_ids_sha256": "f13d259543c5f29776979b19b117b8c0c89ebd94a53d7967b2f7621222852d12"
+  },
+  {
+    "mode": "source",
+    "model": "extratrees",
+    "prediction_filename": "results/source/extratrees/test_predictions.csv.gz",
+    "prediction_sha256": "2e6c2765693c9652592cd97e679a6b5e1231dce27c6a25f0e71180b621e8dda7",
+    "rows": 8736,
+    "measurement_ids_sha256": "c263b8088196744c8d26b8cbb3216c112fd9e86dbe847c1302aba9d53200ecb0"
+  },
+  {
+    "mode": "source",
+    "model": "ridge",
+    "prediction_filename": "results/source/ridge/test_predictions.csv.gz",
+    "prediction_sha256": "46a60db08c72437768312f313e7069b70bf32386f1ab52ff417920a8c1359cf4",
+    "rows": 8736,
+    "measurement_ids_sha256": "c263b8088196744c8d26b8cbb3216c112fd9e86dbe847c1302aba9d53200ecb0"
+  },
+  {
+    "mode": "source",
+    "model": "deardti_gine_aacnn",
+    "prediction_filename": "results/source/deardti_gine_aacnn/test_predictions.csv.gz",
+    "prediction_sha256": "b0bc40dca6e3b12ac87f5efba9b4178a3e47b7c0957e4c48681679509dcd6ee3",
+    "rows": 8736,
+    "measurement_ids_sha256": "c263b8088196744c8d26b8cbb3216c112fd9e86dbe847c1302aba9d53200ecb0"
+  }
+]

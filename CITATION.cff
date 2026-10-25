@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this software and the source datasets used in your analysis."
+type: software
+title: "DearDTI KFRI: compound-target Kd prediction"
+authors:
+  - name: "kangk1204"
+repository-code: "https://github.com/kangk1204/DearDTI_kfri"
+license: MIT
+version: 1.0.0
+date-released: 2026-10-26

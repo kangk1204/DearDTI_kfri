@@ -1,0 +1,36 @@
+{
+  "model": "extratrees",
+  "split_lock_sha256": "2b6200444a2730c796d70f3ecc4ad29307b42b840481a19183a2290875c446c6",
+  "code_sha256": {
+    "native_kd_runner.py": "2863748b060c3c49f9a1df73b1f3c29e074ea6ffdc03c4fd19f609ecb5135216",
+    "deardti_kd.py": "f1c83a33da6b70194ab76fc4e586b8673229a5acd6e106128846460b0118d6e0",
+    "prospective_kd.py": "32426914be919209afde7d5865f2fdc2da78b6b5df4fa3f06e1eafe1fb679b4e",
+    "source_ledger_v2.py": "e3990ada62b08544318023df75e8c9951947a6c89aaeb75ece54c030877637b8",
+    "vendor/deardti_encoders.py": "e22b3d6873951e66fd02227adf723b289033170f0d3557805d6c192e5bfaa998",
+    "vendor/deardti_fusion.py": "68743fc5c550828c8a74feccd19487bf2e4db56f29e246fc73bddc73fc9709ee"
+  },
+  "seed": 20261003,
+  "config": {
+    "trees": 100,
+    "max_depth": 24,
+    "min_samples_leaf_candidates": [
+      2,
+      4
+    ],
+    "max_features": 0.7,
+    "selected_parameter": 4
+  },
+  "runtime": {
+    "python": "3.11.15",
+    "platform": "Linux-6.17.0-41-generic-x86_64-with-glibc2.42",
+    "numpy": "2.4.6",
+    "sklearn": "1.9.0"
+  },
+  "validation_metrics": {
+    "n": 3787,
+    "rmse_pkd": 1.521340946742749,
+    "mae_pkd": 1.2141393980160944,
+    "spearman": 0.3952234741050925
+  },
+  "model_sha256": "bcfd9c83e9c3c0348405c381b95b8c309e24369ebb1db2d7162edd18e62712dc"
+}

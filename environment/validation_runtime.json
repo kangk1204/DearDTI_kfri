@@ -1,0 +1,17 @@
+{
+  "checked_date": "2026-10-26",
+  "python": "3.12.14",
+  "platform": "Windows",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "rdkit": "2026.3.6",
+    "pytest": "9.1.1"
+  },
+  "torch": "2.11.0+cpu",
+  "tests_passed": 29,
+  "metric_evaluations_recalculated": 18,
+  "metric_absolute_tolerance": 1e-08
+}

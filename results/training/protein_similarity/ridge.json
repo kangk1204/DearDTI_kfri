@@ -1,0 +1,35 @@
+{
+  "model": "ridge",
+  "split_lock_sha256": "aaa4f5dd89df40263e49972079b5fcbb18b9e68abb0cf58b7f2f05363fcc77b1",
+  "code_sha256": {
+    "native_kd_runner.py": "2863748b060c3c49f9a1df73b1f3c29e074ea6ffdc03c4fd19f609ecb5135216",
+    "deardti_kd.py": "f1c83a33da6b70194ab76fc4e586b8673229a5acd6e106128846460b0118d6e0",
+    "prospective_kd.py": "32426914be919209afde7d5865f2fdc2da78b6b5df4fa3f06e1eafe1fb679b4e",
+    "source_ledger_v2.py": "e3990ada62b08544318023df75e8c9951947a6c89aaeb75ece54c030877637b8",
+    "vendor/deardti_encoders.py": "e22b3d6873951e66fd02227adf723b289033170f0d3557805d6c192e5bfaa998",
+    "vendor/deardti_fusion.py": "68743fc5c550828c8a74feccd19487bf2e4db56f29e246fc73bddc73fc9709ee"
+  },
+  "seed": 20261003,
+  "config": {
+    "alpha_candidates": [
+      1.0,
+      10.0,
+      100.0
+    ],
+    "scale": "training-only StandardScaler",
+    "selected_parameter": 100.0
+  },
+  "runtime": {
+    "python": "3.11.15",
+    "platform": "Linux-6.17.0-41-generic-x86_64-with-glibc2.42",
+    "numpy": "2.4.6",
+    "sklearn": "1.9.0"
+  },
+  "validation_metrics": {
+    "n": 4876,
+    "rmse_pkd": 1.7207066415954284,
+    "mae_pkd": 1.3458811335703196,
+    "spearman": 0.33258262917447595
+  },
+  "model_sha256": "49206a6d73c3f542d3b05a43f4c5d4c45cb16e12f6b586d8ba4b55e1c11a1f62"
+}

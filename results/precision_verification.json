@@ -1,0 +1,169 @@
+{
+  "source_sha256": "25ee6b0080bbff44cfcfbcb06321a0846f57873c6369675e2da004cec8aaebba",
+  "recorded_utc": "2026-10-23T01:01:10.309377+00:00",
+  "contract": {
+    "created_utc": "2026-10-23T01:01:02.782422+00:00",
+    "modes": [
+      "random",
+      "cold_compound",
+      "cold_target",
+      "scaffold",
+      "protein_similarity",
+      "source"
+    ],
+    "validation_n": 32,
+    "saved_consistency_n": 128,
+    "panel_selection": "first ascending measurement_id, before predictions",
+    "labels_loaded": false,
+    "tolerance_pkd": 0.0001,
+    "purpose": "precision and saved-output consistency only; no model or score selection",
+    "script_sha256": "5458d2b7316dd344eecac4111fae245943293450f65ec74f149d1ae168c34772",
+    "max_seconds": 180
+  },
+  "panels": [
+    {
+      "mode": "random",
+      "panel": "validation",
+      "n": 32,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 4.76837158203125e-07,
+        "mean_absolute": 7.450580596923828e-08,
+        "within_1e_4": true
+      },
+      "input_sha256": "cb7e70ab31681e849e9ed2d02a3af6c9b40ff4b84b465c06e66cb22a8ee74dab",
+      "backend_restored": true
+    },
+    {
+      "mode": "random",
+      "panel": "test",
+      "n": 128,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 4.76837158203125e-07,
+        "mean_absolute": 8.940696716308594e-08,
+        "within_1e_4": true
+      },
+      "input_sha256": "d2f74958f5637a402f77be5c7cb0c7bdf705ae9eec058ee91e347eedc3fbf7b1",
+      "backend_restored": true
+    },
+    {
+      "mode": "cold_compound",
+      "panel": "validation",
+      "n": 32,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 4.76837158203125e-07,
+        "mean_absolute": 8.940696716308594e-08,
+        "within_1e_4": true
+      },
+      "input_sha256": "f8d7508de6cb5cc13b45177e2b082c55f3045b2a9cfa05a60506faa7653c394f",
+      "backend_restored": true
+    },
+    {
+      "mode": "cold_compound",
+      "panel": "test",
+      "n": 128,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 4.76837158203125e-07,
+        "mean_absolute": 8.940696716308594e-08,
+        "within_1e_4": true
+      },
+      "input_sha256": "c65413ee1c026ae2047a04897ea7da92fa8bda95c26efdaf81ea0809febbe3f2",
+      "backend_restored": true
+    },
+    {
+      "mode": "cold_target",
+      "panel": "validation",
+      "n": 32,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 9.5367431640625e-07,
+        "mean_absolute": 1.6391277313232422e-07,
+        "within_1e_4": true
+      },
+      "input_sha256": "3ff4f1ef29907e5f12a99e317c36c4b4046fe4251f67eac3448d6a07fd6fce74",
+      "backend_restored": true
+    },
+    {
+      "mode": "cold_target",
+      "panel": "test",
+      "n": 128,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 9.5367431640625e-07,
+        "mean_absolute": 2.0116567611694336e-07,
+        "within_1e_4": true
+      },
+      "input_sha256": "ad3c81c66f46d01aadcd6d729cdc76ba2c2cb8799f4d53e5b98f657d27de9066",
+      "backend_restored": true
+    },
+    {
+      "mode": "scaffold",
+      "panel": "validation",
+      "n": 32,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 4.76837158203125e-07,
+        "mean_absolute": 5.960464477539063e-08,
+        "within_1e_4": true
+      },
+      "input_sha256": "2999eb5141d3c3448087aa1c175aff06c355dfbbffe86165738625967d34821b",
+      "backend_restored": true
+    },
+    {
+      "mode": "scaffold",
+      "panel": "test",
+      "n": 128,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 4.76837158203125e-07,
+        "mean_absolute": 8.568167686462402e-08,
+        "within_1e_4": true
+      },
+      "input_sha256": "fce2d7c3a3c4e6b4a8359b3ce8b9392b26304c570c047211074799b8a964444d",
+      "backend_restored": true
+    },
+    {
+      "mode": "protein_similarity",
+      "panel": "validation",
+      "n": 32,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 9.5367431640625e-07,
+        "mean_absolute": 2.086162567138672e-07,
+        "within_1e_4": true
+      },
+      "input_sha256": "890e9a826f510907744be38fcf1ec4bfa9fb0887ce98356de0768a8a5769f695",
+      "backend_restored": true
+    },
+    {
+      "mode": "protein_similarity",
+      "panel": "test",
+      "n": 128,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 1.9073486328125e-06,
+        "mean_absolute": 2.2724270820617676e-07,
+        "within_1e_4": true
+      },
+      "input_sha256": "c3506809ec4810cd37d30ec6d72ba21ea66e61125f3a9fd7aad220377b594034",
+      "backend_restored": true
+    },
+    {
+      "mode": "source",
+      "panel": "validation",
+      "n": 32,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 9.5367431640625e-07,
+        "mean_absolute": 1.6391277313232422e-07,
+        "within_1e_4": true
+      },
+      "input_sha256": "d0e114619592c20b181ba07efe9215e518334bf5eac2c8592210a9f065e960c0",
+      "backend_restored": true
+    },
+    {
+      "mode": "source",
+      "panel": "test",
+      "n": 128,
+      "cpu_gpu_ieee": {
+        "maximum_absolute": 9.5367431640625e-07,
+        "mean_absolute": 1.601874828338623e-07,
+        "within_1e_4": true
+      },
+      "input_sha256": "97960767c9b280755b1905f2a7d52da4f1d79f8710d4e10b35d874e436e93cad",
+      "backend_restored": true
+    }
+  ]
+}
